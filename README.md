@@ -126,7 +126,7 @@ _**Example:**_
       * Ginger
   + Broccoli
   
-#### **How To Make Awesome Pizza at Home**;
+#### **How To Make Awesome Pizza at Home**:
 1. Make your own pizza dough.
    * How To Make the Best Basic Pizza Dough
    * Homemade Thin-Crust Pizza
@@ -135,6 +135,28 @@ _**Example:**_
 2. Keep the sauce and toppings simple.
    * How To Make Homemade Pizza Sauce
    * How To Make the Best Pesto: The Easiest, Simplest Method
+
+#### **Example**:
+1. First Article:
+   * Title: 
+
+        Lorem ipsum dolor sit amet.
+   * Image:
+
+        ![V](https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80 "V")
+    * Body:
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium id temporibus, rerum dolore aliquid enim sequi voluptas repellat cum! Doloremque blanditiis est omnis dolorem sequi similique, corporis atque officia? Molestiae est unde ad dignissimos omnis odio aliquid, sit debitis.
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, dolore! Magnam doloremque dolor eveniet illum, itaque obcaecati praesentium beatae animi aut earum nostrum dolorum dolorem ratione sapiente cumque totam quas saepe voluptatum repellat, a ad? Pariatur placeat rem laborum dolore enim nobis, ullam, sit, eveniet aspernatur minima doloribus nisi! Culpa?
+    * Links:
+        1. [Github][github].
+        2. [My Website](elboudali.com).
+            * [Home](elboudali.com)
+            * [Blog](elboudali.com/blog)
+            * [Projects](elboudali.com/projects)
+                - [Instagram Clone](instagram.elboudali.com)
+            * [Contact](elboudali.com/contact)
 
 <!-- Link can be at the end of the file -->
 [1]: https://guides.github.com/features/mastering-markdown/#what
