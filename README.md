@@ -3,7 +3,7 @@
 Mastering Markdown w/ wesbos
 
 <!-- Pargraph -->
-## Paragraphs:
+## Paragraphs
 ### Single line p:
 This is a paragraph in one line.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, beatae.
@@ -36,7 +36,7 @@ _You **can** combine them_
 ### Strikethrough (~~):
 ~~this is a Strikethrough paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, mollitia?~~
 
-# Headings:
+# Headings
 <!-- H1 -->
 # h1
 <!-- the other way -->
@@ -52,7 +52,7 @@ h2
 <!-- h4 -->
 #### h4
 
-# links:
+# links
 ### normal link:
 <http://elboudali.com>
 
@@ -72,7 +72,22 @@ _**Example:**_
 
 [GitHub][github] uses its own version of the [Markdown][2] syntax that provides an additional set of useful features, many of which make it easier to work with content on [GitHub][github].
 
+# Images
+### normal image:
+<!-- alt text for search engines and screen readers (you can leave it empty)-->
+![alt text](https://images.unsplash.com/photo-1584449879552-d4a37ce5e5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+### image with tooltip/title:
+![IDEA](https://images.unsplash.com/photo-1595450547833-95af46d7c43a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80 "Idea")
+### image with key:
+![a change may be just around the corner][thirdImage]
+### multiple images:
+<!-- if we have dif versions of the same image -->
+[![](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=80)](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80)
+
+
 <!-- Link can be at the end of the file -->
 [1]: https://guides.github.com/features/mastering-markdown/#what
 [2]: https://guides.github.com/features/mastering-markdown/
 [github]: https://GitHub.com
+<!-- images links -->
+[thirdImage]: https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
