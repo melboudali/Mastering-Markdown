@@ -77,7 +77,7 @@ _**Example:**_
 <!-- alt text for search engines and screen readers (you can leave it empty)-->
 ![alt text](https://images.unsplash.com/photo-1523554888454-84137e72c3ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
 ### image with tooltip/title:
-![V](https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80 "Idea")
+![V](https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80 "V")
 ### image with key:
 ![Bearded man portrait and lamp][first-image]
 ### image inside link:
@@ -86,6 +86,55 @@ _**Example:**_
 [![][smallImage]][bigImage]
 <!-- we can also use img tag -->
 [<img src="https://images.unsplash.com/photo-1587868579905-3c9800e065da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80">](https://images.unsplash.com/photo-1587868579905-3c9800e065da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80)
+
+# Lists
+### unordered list (ul):
+#### **fruits**:
+<!-- we can use * or + or - -->
+* Apple
+* Banana
+* Orange
++ Blueberry
++ Grapes
++ Lychee
+- Mulberry
+- Peach
+- Pineapple 
+
+### ordered list (ol):
+#### **How To Make Awesome Pizza at Home**;
+1. Make your own pizza dough.
+2. Keep the sauce and toppings simple.
+3. Bake it hot.
+<!-- or best choice without md plugin-->
+1. Make your own pizza dough.
+1. Keep the sauce and toppings simple.
+1. Bake it hot.
+   
+### nested list:
+* **fruits**:
+  * Apple
+    + Blueberry
+      - Grapes
+  * Banana
+  * Orange
+* **vegetables**:
+  + Spinach
+    - Garlic
+  + Carrots
+    - Kale
+      * Ginger
+  + Broccoli
+  
+#### **How To Make Awesome Pizza at Home**;
+1. Make your own pizza dough.
+   * How To Make the Best Basic Pizza Dough
+   * Homemade Thin-Crust Pizza
+   * Quick No-Rise Pizza Dough
+   * The Best Pizza Dough for Grilling
+2. Keep the sauce and toppings simple.
+   * How To Make Homemade Pizza Sauce
+   * How To Make the Best Pesto: The Easiest, Simplest Method
 
 <!-- Link can be at the end of the file -->
 [1]: https://guides.github.com/features/mastering-markdown/#what
