@@ -80,10 +80,11 @@ _**Example:**_
 ![IDEA](https://images.unsplash.com/photo-1595450547833-95af46d7c43a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80 "Idea")
 ### image with key:
 ![a change may be just around the corner][thirdImage]
-### multiple images:
-<!-- if we have dif versions of the same image -->
+### image inside link:
+<!-- show small image but link to a bigger image -->
 [![](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=80)](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80)
-
+<!-- with keys -->
+[![][smallImage]][bigImage]
 
 <!-- Link can be at the end of the file -->
 [1]: https://guides.github.com/features/mastering-markdown/#what
@@ -91,3 +92,5 @@ _**Example:**_
 [github]: https://GitHub.com
 <!-- images links -->
 [thirdImage]: https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
+[smallImage]:https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=80
+[bigImage]: https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
