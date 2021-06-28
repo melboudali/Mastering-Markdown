@@ -75,22 +75,23 @@ _**Example:**_
 # Images
 ### normal image:
 <!-- alt text for search engines and screen readers (you can leave it empty)-->
-![alt text](https://images.unsplash.com/photo-1584449879552-d4a37ce5e5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+![alt text](https://images.unsplash.com/photo-1523554888454-84137e72c3ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
 ### image with tooltip/title:
-![IDEA](https://images.unsplash.com/photo-1595450547833-95af46d7c43a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80 "Idea")
+![V](https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80 "Idea")
 ### image with key:
-![a change may be just around the corner][thirdImage]
+![Bearded man portrait and lamp][first-image]
 ### image inside link:
 <!-- show small image but link to a bigger image -->
-[![](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=80)](https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80)
-<!-- with keys -->
+[![](https://images.unsplash.com/photo-1598775764807-f8ea9b3b3966?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80)](https://images.unsplash.com/photo-1598775764807-f8ea9b3b3966?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
 [![][smallImage]][bigImage]
+<!-- we can also use img tag -->
+[<img src="https://images.unsplash.com/photo-1587868579905-3c9800e065da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80">](https://images.unsplash.com/photo-1587868579905-3c9800e065da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80)
 
 <!-- Link can be at the end of the file -->
 [1]: https://guides.github.com/features/mastering-markdown/#what
 [2]: https://guides.github.com/features/mastering-markdown/
 [github]: https://GitHub.com
 <!-- images links -->
-[thirdImage]: https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
-[smallImage]:https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=80
-[bigImage]: https://images.unsplash.com/photo-1600682950262-cda810301cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
+[first-image]: https://images.unsplash.com/photo-1493841160601-33a4807cb6de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80
+[smallImage]:https://images.unsplash.com/photo-1487452066049-a710f7296400?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80
+[bigImage]: https://images.unsplash.com/photo-1487452066049-a710f7296400?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80
