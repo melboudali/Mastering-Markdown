@@ -416,14 +416,14 @@ https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css
 
 **Align Center**:
 
-| key                    | value                  |
-| :--------------------- | :--------------------- |
+|          key           |         value          |
+| :--------------------: | :--------------------: |
 | Lorem ipsum dolor sit. | Lorem ipsum dolor sit. |
 
 **Align Left**:
 
-|          key           |         value          |
-| :--------------------: | :--------------------: |
+| key                    | value                  |
+| :--------------------- | :--------------------- |
 | Lorem ipsum dolor sit. | Lorem ipsum dolor sit. |
 
 **Align Right**:
