@@ -401,9 +401,80 @@ https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css
 - In **VSCode**, just edit the **Markdown: Styles** configuration or add the following line to `settings.json`
 
 ```json
-"markdown.styles": [
-        "https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"
-    ]
+"markdown.styles": ["https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"]
+```
+
+# Tables
+
+### table text deriections:
+
+| value | direction |
+| :---- | :-------- |
+| :---- | Left      |
+| :---: | Center    |
+| ----: | Right     |
+
+**Align Center**:
+
+| key                    | value                  |
+| :--------------------- | :--------------------- |
+| Lorem ipsum dolor sit. | Lorem ipsum dolor sit. |
+
+**Align Left**:
+
+|          key           |         value          |
+| :--------------------: | :--------------------: |
+| Lorem ipsum dolor sit. | Lorem ipsum dolor sit. |
+
+**Align Right**:
+
+|                    key |                  value |
+| ---------------------: | ---------------------: |
+| Lorem ipsum dolor sit. | Lorem ipsum dolor sit. |
+
+**Example**:
+
+Markdown All in One Keyboard Shortcuts:
+
+| Key              | Command                      |
+| :--------------- | :--------------------------- |
+| Ctrl + B         | Toggle bold                  |
+| Ctrl + I         | Toggle italic                |
+| Ctrl + Shift + ] | Toggle heading (uplevel)     |
+| Ctrl + Shift + [ | Toggle heading (downlevel)   |
+| Ctrl + M         | Toggle math environment      |
+| Alt + C          | Check/Uncheck task list item |
+| Ctrl + Shift + V | Toggle preview               |
+| Ctrl + K V       | Toggle preview to side       |
+
+# Checkbox
+
+**Shopping List**:
+
+- [x] Apples
+- [ ] Bananas
+- [ ] Bread
+- [x] Muffins
+
+# Directory & file structures
+
+```
+project
+│   README.md
+│   file001.txt
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│
+└───folder2
+    │   file021.txt
+    │   file022.txt
 ```
 
 <!-- Link can be at the end of the file -->
